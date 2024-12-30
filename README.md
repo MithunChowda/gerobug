@@ -1,4 +1,4 @@
-### Gerobug  
+# Gerobug  
 **The first open-source self-managed bug bounty platform.**
 
 Are you a company planning to run your own bug bounty program on a minimal budget?  
@@ -6,19 +6,19 @@ Are you a company planning to run your own bug bounty program on a minimal budge
 
 We understand that some organizations have struggled to establish their own bug bounty program. Using a third-party managed platform usually comes with a hefty price tag and potential security risks. On the other hand, building your own self-managed platform can be time-consuming and requires ongoing effort to maintain.
 
-### Why Gerobug?
+## Why Gerobug?
 
 - **EASY**: Get your bug bounty program running with just a single line of command.
 - **SECURE**: Gerobug uses email parsing and network segregation to minimize security risks.
 - **OPEN SOURCE**: It's FREE.
 
-### (Minimum) Recommended Specifications
+## (Minimum) Recommended Specifications
 - Ubuntu 24.04
 - vCPU: 2 Cores
 - RAM: 2 GB
 - HDD: 16 GB
 
-### Requirements
+## Requirements
 - Gmail or Outlook Email with App password implemented
 - VPN Server (Recommended for Production Server)
 - Domain for HTTPS (Recommended for Production Server)
@@ -28,7 +28,7 @@ We understand that some organizations have struggled to establish their own bug 
 - Docker Compose v2
 - *(No need to install anything manually; we'll handle it for you!)*
 
-### Deployment and Usage
+## Deployment and Usage
 
 To deploy Gerobug:
 
@@ -53,12 +53,12 @@ By default, the **Gerobug Dashboard** will listen on port **6320**.
 Access the login page at:  
 `http://[Domain/IP]:6320/login`
 
-### Credentials
+## Credentials
 - **Username**: geromin
 - **Password**: Randomly generated at `gerobug/gerobug_dashboard/secrets/gerobug_secret.env`
 
 
-### Main Features
+## Main Features
 
 - **Network Segregation**  
   All services are running in separate containers. Public users can only access the static page (Rules and Guidelines).
