@@ -45,7 +45,7 @@ To deploy Gerobug:
 3. Run the Setup Script:
    ```bash
    ./gerobug.sh
-   ```
+ 
 
 4. Follow the setup instructions (Refer to the documentation for details).
 
@@ -57,7 +57,6 @@ Access the login page at:
 - **Username**: geromin
 - **Password**: Randomly generated at `gerobug/gerobug_dashboard/secrets/gerobug_secret.env`
 
-You can read the detailed documentation [here](https://github.com/gerobug/gerobug).
 
 ### Main Features
 
@@ -109,6 +108,3 @@ You can read the detailed documentation [here](https://github.com/gerobug/gerobu
 - **Hall of Fame / Wall of Fame / Leaderboard**  
   Yes, we even have a **Hall of Fame** to recognize top contributors!
 
-  
-### Feedback
-If you have any feedback, please reach out to us at [gerobug.id@gmail.com](mailto:gerobug.id@gmail.com).
